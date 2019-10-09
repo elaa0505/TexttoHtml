@@ -26,13 +26,13 @@ Usage: python -m texttohtml.convert [FILE PATH] [-OPTIONS] [-OUTPUT FILE PATH]
 
   **Ex:**
   
-	**txt:**
+	** txt: **
 	
 	@title Title of your web page;
 	
 	Where @title indicates to apply style and ; indicates the end of style
 	
-	**output:**
+	** output: **
 	<title>Title of your web page</title>
 
 ### charset:
