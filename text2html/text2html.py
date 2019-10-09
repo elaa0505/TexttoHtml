@@ -7,7 +7,7 @@ Text to html convertion tool. Easy to use no code required ot convert
 '''
 
 import sys
-from elaa.nucleo import ProcessorText
+
 
 PROGRAM_INS = """\
 Usage: text2html.text2html FILE [-OPTIONS] [-OUT OUT]
@@ -125,9 +125,7 @@ def main():
 			if show_userinfo:
 				break
 
-		if not show_userinfo:
-			p = ProcessorText(input_file, output_file, show_doctype, print_debug)
-			p.rotate()
+		
 		else:
 			print_userins()
 
