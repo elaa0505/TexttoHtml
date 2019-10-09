@@ -10,7 +10,7 @@ Give input document as text document
 For more information on how to use or additional options, type **'--help'.**
 
 ```sh
-Usage: python -m text2html.text2html [FILE PATH] [-OPTIONS] [-OUTPUT FILE PATH]
+Usage: python -m texttohtml.convert [FILE PATH] [-OPTIONS] [-OUTPUT FILE PATH]
 
     -o		On success, instead of writing to stdout, write to a file.
     -t		Adds the <!DOCTYPE html> header to the generated code.
@@ -20,19 +20,19 @@ Usage: python -m text2html.text2html [FILE PATH] [-OPTIONS] [-OUTPUT FILE PATH]
 ```
 ## Example:
 
-**python -m text2html.text2html elaa.txt -o elaa.html**
+**python -m texttohtml.convert elaa.txt -o elaa.html**
 
 ### title:
 
-  Ex:
+  **Ex:**
   
-	txt:
+	**txt:**
 	
 	@title Title of your web page;
 	
 	Where @title indicates to apply style and ; indicates the end of style
 	
-	output:
+	**output:**
 	<title>Title of your web page</title>
 
 ### charset:
