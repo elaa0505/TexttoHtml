@@ -4,6 +4,10 @@ To Translate text document to html document, Easy to use no code needed
 Just pass given argument into terminal or command prompt
 Give input document as text document
 
+# Install Package
+
+**pip install texttohtml**
+
 ## Use
 --------
 
